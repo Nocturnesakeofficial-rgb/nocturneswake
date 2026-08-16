@@ -459,6 +459,7 @@ h1 {
     <a href="https://www.youtube.com/@nocturneswake" class="nav-button" target="_blank" rel="me">YOUTUBE</a>
     <a href="https://x.com/NocturnesWake" class="nav-button" target="_blank" rel="me">X / TWITTER</a>
     <button onclick="openOverlay('infoOverlay')" class="nav-button btn-info">HISTORIA / INFO</button>
+    <button onclick="openOverlay('libroOverlay')" class="nav-button btn-info">EL LIBRO</button>
     <button onclick="openNewsletter()" class="nav-button btn-info">NEWSLETTER</button>
 </nav>
 
@@ -490,6 +491,7 @@ h1 {
     <a href="https://www.youtube.com/@nocturneswake" target="_blank" rel="me">YT</a>
     <a href="https://x.com/NocturnesWake" target="_blank" rel="me">X</a>
     <button onclick="openOverlay('infoOverlay')" class="btn-info-mob">INFO</button>
+    <button onclick="openOverlay('libroOverlay')" class="btn-info-mob">LIBRO</button>
     <button onclick="openNewsletter()" class="btn-info-mob">NEWS</button>
 </div>
 
@@ -592,6 +594,19 @@ h1 {
     <p>Recibe adelantos, lanzamientos y contenido exclusivo de Nocturne's Wake antes que nadie.</p>
     <div id="newsletterFormContainer"></div>
     <button class="close-btn" onclick="closeOverlay('newsletterOverlay')">CERRAR</button>
+</div>
+</div>
+
+<!-- OVERLAY: EL LIBRO -->
+<div class="overlay" id="libroOverlay">
+<div class="overlay-content" style="text-align:center;">
+    <h2>WE DON'T BREAK</h2>
+    <h3 style="margin-top:0;">El origen de Nocturne's Wake</h3>
+    <img src="libro-portada.png" alt="We Don't Break - El origen de Nocturne's Wake" style="max-width:260px; width:100%; margin:20px auto; display:block; border:1px solid rgba(212,175,55,0.4);">
+    <p>La historia real detrás de Dorian, Cal, Marcus y Rián. El libro autobiográfico que da origen a todo el universo de Nocturne's Wake. Lectura gratuita.</p>
+    <a href="we-dont-break-el-origen.pdf" target="_blank" class="cta" style="margin-top:10px;">LEER ONLINE</a>
+    <a href="we-dont-break-el-origen.pdf" download class="cta" style="margin-top:10px; margin-left:10px; opacity:0.75;">DESCARGAR PDF</a>
+    <button class="close-btn" onclick="closeOverlay('libroOverlay')">CERRAR</button>
 </div>
 </div>
 
