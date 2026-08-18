@@ -155,10 +155,10 @@ body, html { height:100%; background:#000; color:#fff; font-family:'Segoe UI', A
     display:flex;
     flex-direction:column;
     align-items:center;
-    justify-content:center;
+    justify-content:flex-start;
     min-height:100vh;
     text-align:center;
-    padding:20px 200px;
+    padding:14vh 200px 200px;
 }
 .micro-hook {
     font-size:10px;
@@ -179,12 +179,16 @@ h1 {
     bottom:0;
     max-width:none;
     width:auto;
-    background:rgba(0,0,0,0.86);
-    padding:20px 38px;
+    background:rgba(0,0,0,0.9);
+    padding:16px 38px;
     border-top:2px solid #D4AF37;
-    line-height:1.6;
+    line-height:1.35;
+    font-size:0.85rem;
     z-index:8;
 }
+.bio-box p { margin-bottom:4px; }
+.bio-box .brush-quote { margin-top:6px; font-size:0.85rem; }
+.bio-box .cta { margin-top:10px; padding:8px 20px; }
 .brush-quote {
     display:block;
     margin-top:15px;
@@ -402,14 +406,19 @@ h1 {
     .bottom-members .bm-cal    { border-top:2px solid #64748B; }
     .bottom-members .bm-marcus { border-top:2px solid #EF4444; }
     .bottom-members .bm-rian   { border-top:2px solid #3B82F6; }
-    .main-content { padding:70px 16px 90px; }
+    .main-content { padding:70px 16px 90px; justify-content:center; }
     h1 { font-size:1.8rem; letter-spacing:4px; }
     .bio-box {
         position:static;
         left:auto; right:auto;
         margin-top:24px;
         padding:22px 20px;
+        font-size:0.9rem;
+        line-height:1.6;
     }
+    .bio-box p { margin-bottom:14px; }
+    .bio-box .brush-quote { font-size:0.9rem; }
+    .bio-box .cta { padding:10px 25px; }
     .lang-switch { top:auto; bottom:85px; left:10px; z-index:21; }
     .platform-grid { grid-template-columns:1fr; }
     .micro-hook { font-size:9px; }
