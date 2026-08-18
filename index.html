@@ -173,11 +173,17 @@ h1 {
     margin-bottom:20px;
 }
 .bio-box {
-    max-width:680px;
+    position:fixed;
+    left:220px;
+    right:220px;
+    bottom:0;
+    max-width:none;
+    width:auto;
     background:rgba(0,0,0,0.86);
-    padding:32px 38px;
+    padding:20px 38px;
     border-top:2px solid #D4AF37;
-    line-height:1.8;
+    line-height:1.6;
+    z-index:8;
 }
 .brush-quote {
     display:block;
@@ -398,7 +404,12 @@ h1 {
     .bottom-members .bm-rian   { border-top:2px solid #3B82F6; }
     .main-content { padding:70px 16px 90px; }
     h1 { font-size:1.8rem; letter-spacing:4px; }
-    .bio-box { padding:22px 20px; }
+    .bio-box {
+        position:static;
+        left:auto; right:auto;
+        margin-top:24px;
+        padding:22px 20px;
+    }
     .lang-switch { top:auto; bottom:85px; left:10px; z-index:21; }
     .platform-grid { grid-template-columns:1fr; }
     .micro-hook { font-size:9px; }
